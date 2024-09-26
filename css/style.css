@@ -327,6 +327,45 @@ header {
     margin-bottom: 5px;
 }
 
+/****** Activité ***********/
+
+.activite-at-marseille{
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.activite-card{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.activite-card .card{
+    display: flex;
+    flex-direction: column;
+    height: 439px;
+    border: none;
+    padding: 0px;
+}
+
+.activite-card img{
+    width: 297.5px;
+    height: 100%;
+    max-height: 380px;
+    object-fit : cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.activite-card .card-title{
+    height: 19px;
+    padding: 20px 19px;
+    margin: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
