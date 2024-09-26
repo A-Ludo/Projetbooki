@@ -98,6 +98,88 @@ header {
     border-top: 2px var(--main-color) solid;
 }
 
+/****** Formulaire de recherche ***********/
+
+.info-group{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.section-subtitle{
+    font-size: 18px;
+}
+
+.section-text {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+.info-bar{
+    display: flex;
+    align-items: center;
+    height: 24px;
+    gap: 8px;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    height: 49px;
+}
+
+.search-bar .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 49px;
+    border-radius: 15px 0 0 15px;
+    background-color: var(--main-bg-color);
+    border: none;
+}
+
+.search-bar .icon .fa-solid{
+    color: black;
+}
+
+.btn-search {
+    display: flex;
+    background-color: var(--main-color);
+    color: white;
+    font-weight: 700;
+    height: 49px;
+    border: none;
+    padding: 15px 16px;
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+}
+
+.btn-search .icon {
+    display: none; 
+}
+
+.btn-search .text {
+    display: inline-block; 
+}
+  
+.search-form {
+    display: inline-block;
+    align-items: center;
+    height: 47px;
+    border-top: 1px var(--main-bg-color) solid;
+    border-bottom: 1px var(--main-bg-color) solid;
+}
+
+.search-form input {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 12px 24px;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
